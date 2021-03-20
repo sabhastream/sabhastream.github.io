@@ -1,0 +1,115 @@
+# homepage
+homepage:
+  head:
+    title: "Home | sabha.stream"
+# showcase
+showcase:
+  enable: true
+  title: "Welcome to sabha.stream"
+  subtitle: "Better concerts, Happy rasikas"
+  description: "You bring your talent and crew; we bring interactive concert experiences to your Rasikas. Together, we can keep what is old and gold, and bring the rest up to what today's Rasikas expect and deserve. <ul class='lead'>
+  <li>360° Live Streaming</li>
+  <li>Custom branding, video and audio editing</li>
+  <li>Ticket sales and channel management </li>
+</ul>"
+  image:
+    alt: "Showcase keyboard and mouse image"
+    x: "./img/showcase/showcase.png"
+    _2x: "./img/showcase/showcase@2x.png"
+  imageMobile:
+    alt: "Showcase keyboard and mouse image"
+    x: "./img/showcase/showcase-mobile.png"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Schedule a demo!"
+    URL: "#contact"
+
+  socialLinks:
+
+    - icon: "youtube"
+      URL: "https://www.youtube.com/channel/UCojEc6SPO-W1_CoeHhK9-Zw"
+
+    - icon: "instagram"
+      URL: "https://www.instagram.com/raga-ai/"
+
+    - icon: "facebook"
+      URL: "https://www.facebook.com/raga-ai/"
+
+
+# about
+about:
+  enable: true
+  title: "Who are we?"
+  content: '<p class="lead">
+    We are a team passionate about Carnatic music and look forward to working with Sabhas, musicians and rasikas to bring Carnatic music to the next generation. We are students and teachers of music, and most passionate Rasikas that you will meet. We &hearts; Carnatic music. 
+    </p>'
+  button:
+    icon: "icon-smile-fill"
+    btnText: "Contact us"
+    URL: "#contact"
+  image:
+    x: "myimages/collage1.png"
+    _2x: "myimages/collage1.png"
+
+
+# Client & Work
+features:
+  title: "What we do"
+  subtitle: "Bring carnatic music to its next evolution"
+  enable: true
+
+  works:
+    - title: "360° Interactive Video"
+      description: "We bring the software and hardware to give your fans an interactive, 360° Live Streaming experience"
+      image:
+        x: "myimages/360video.jpg"
+        _2x: "myimages/360video.jpg"
+      is_even: true
+
+    - title: "Video editing and branding"
+      description: "Focus on your art, while we focus on the tough stuff - editing, mastering, producing, streaming and branding."
+      image:
+        x: "myimages/video.png"
+        _2x: "myimages/video.png"
+      is_even: false
+
+    - title: "Ticket and concert management"
+      description: "Home concert or at a Sabha - We take care of ticketing, sound and lighting, concert event management, transport and more.. so you can focus on what matters"
+      image:
+        x: "myimages/stage.png"
+        _2x: "myimages/stage.png"
+      is_even: true
+
+
+
+# contact
+contact:
+  enable: true
+  title: "Contact"
+  form:
+    method: "POST"
+    action: "https://formspree.io/f/xzbypbyl"
+    full_name: "Full Name"
+    email: "Email Address"
+    message: "Type Your Message Here"
+  phone:
+    title: "Phone Number"
+    number: "+91 98384 21147"
+  email:
+    title: "Email"
+    email: '<a href="mailto:sabha.stream@gmail.com">sabha.stream@gmail.com</a>'
+  address:
+    title: "Address"
+    address: "Sabha.stream<br />Chennai, India"
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+
+# newsletter
+newsletter:
+  enable: false
+  title: "Newsletter subscription"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else."
